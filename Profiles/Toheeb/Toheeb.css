@@ -1,0 +1,119 @@
+/* selected tag {
+    property : value
+}*/
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+h2{
+    color: darkblue;
+}
+
+/* For all */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+  background:goldenrod;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:100px;
+  border-bottom:darkorange 5px solid;
+}
+
+header img{
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+}
+
+header h1{
+    float: right;
+    padding-bottom: 4px;
+}
+
+/* boxes */
+.brt{
+    text-align: center;
+}
+
+#boxes .brt img {
+    margin-top: 30px;
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+#boxes .brt h2 {
+    margin-bottom: 0px;
+}
+
+#boxes .brt p {
+    padding-bottom: 20px;
+}
+
+#boxes {
+  min-height:50px;
+  background-color: darkblue;
+  background-position: center;
+  background-size: contain;
+  color: #ffffff;
+}
+
+/* show*/
+#show{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 3px;
+  margin-bottom:2px;
+  background:#e6e6e6;
+}
+
+/* contact */
+#contact h2 {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#cont img {
+    width: 30px;
+    border-radius: 10px;
+}
+
+#cont {
+  margin-top:20px;
+  text-align: center;
+}
+
+#cont .cot{
+  float: left;
+  text-align: center;
+  width:30%;
+  padding: 10px;
+}
+
+#cont .cota{
+  float: left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#cont .cotac{
+  padding-top: 10px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color: white;
+  background-color: darkblue;
+  text-align: center; 
+}
